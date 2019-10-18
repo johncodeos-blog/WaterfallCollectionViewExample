@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C2EA1F3F2356265600A8729D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F3E2356265600A8729D /* AppDelegate.swift */; };
 		C2EA1F412356265600A8729D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F402356265600A8729D /* SceneDelegate.swift */; };
-		C2EA1F432356265600A8729D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F422356265600A8729D /* ViewController.swift */; };
 		C2EA1F462356265600A8729D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EA1F442356265600A8729D /* Main.storyboard */; };
 		C2EA1F482356265700A8729D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EA1F472356265700A8729D /* Assets.xcassets */; };
 		C2EA1F4B2356265700A8729D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EA1F492356265700A8729D /* LaunchScreen.storyboard */; };
+		C2EA1F532356271300A8729D /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F522356271300A8729D /* CollectionView.swift */; };
+		C2EA1F552356277500A8729D /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F542356277500A8729D /* CHTCollectionViewWaterfallLayout.swift */; };
+		C2EA1F572356377800A8729D /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F562356377800A8729D /* ItemModel.swift */; };
+		C2EA1F5A23563F8300A8729D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EA1F5823563F8300A8729D /* CollectionViewCell.swift */; };
+		C2EA1F5B23563F8300A8729D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EA1F5923563F8300A8729D /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2EA1F3B2356265600A8729D /* WaterfallCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EA1F3E2356265600A8729D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2EA1F402356265600A8729D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2EA1F422356265600A8729D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2EA1F452356265600A8729D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2EA1F472356265700A8729D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EA1F4A2356265700A8729D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2EA1F4C2356265700A8729D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EA1F522356271300A8729D /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		C2EA1F542356277500A8729D /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		C2EA1F562356377800A8729D /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		C2EA1F5823563F8300A8729D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C2EA1F5923563F8300A8729D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		C2EA1F3D2356265600A8729D /* WaterfallCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				C2EA1F542356277500A8729D /* CHTCollectionViewWaterfallLayout.swift */,
 				C2EA1F3E2356265600A8729D /* AppDelegate.swift */,
 				C2EA1F402356265600A8729D /* SceneDelegate.swift */,
-				C2EA1F422356265600A8729D /* ViewController.swift */,
 				C2EA1F442356265600A8729D /* Main.storyboard */,
 				C2EA1F472356265700A8729D /* Assets.xcassets */,
 				C2EA1F492356265700A8729D /* LaunchScreen.storyboard */,
 				C2EA1F4C2356265700A8729D /* Info.plist */,
+				C2EA1F522356271300A8729D /* CollectionView.swift */,
+				C2EA1F562356377800A8729D /* ItemModel.swift */,
+				C2EA1F5823563F8300A8729D /* CollectionViewCell.swift */,
+				C2EA1F5923563F8300A8729D /* CollectionViewCell.xib */,
 			);
 			path = WaterfallCollectionView;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				C2EA1F4B2356265700A8729D /* LaunchScreen.storyboard in Resources */,
 				C2EA1F482356265700A8729D /* Assets.xcassets in Resources */,
+				C2EA1F5B23563F8300A8729D /* CollectionViewCell.xib in Resources */,
 				C2EA1F462356265600A8729D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2EA1F432356265600A8729D /* ViewController.swift in Sources */,
+				C2EA1F572356377800A8729D /* ItemModel.swift in Sources */,
+				C2EA1F532356271300A8729D /* CollectionView.swift in Sources */,
+				C2EA1F5A23563F8300A8729D /* CollectionViewCell.swift in Sources */,
 				C2EA1F3F2356265600A8729D /* AppDelegate.swift in Sources */,
 				C2EA1F412356265600A8729D /* SceneDelegate.swift in Sources */,
+				C2EA1F552356277500A8729D /* CHTCollectionViewWaterfallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

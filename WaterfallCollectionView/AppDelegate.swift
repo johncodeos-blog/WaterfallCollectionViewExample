@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WaterfallCollectionView
 //
-//  Created by John Codeos on 15/10/2019.
+//  Created by John Codeos on 10/10/2019.
 //  Copyright © 2019 John Codeos. All rights reserved.
 //
 
@@ -10,7 +10,6 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
